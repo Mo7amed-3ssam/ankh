@@ -1,0 +1,435 @@
+{
+  "loading": "Loading...",
+  "TO_TOP": "to top",
+  "navbar": {
+    "brand": "ANKH",
+    "home": "Home",
+    "courses": "Learning Paths",
+    "subscriptions": "Subscriptions",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Create an account",
+    "dashboard": "Dashboard",
+    "viewProfile": "View Profile",
+    "notifications": "Notifications",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to access your organization account",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "register": "Register here",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "userNotFound": "No account found with this email",
+      "wrongPassword": "Incorrect password",
+      "invalidEmail": "Invalid email address",
+      "notApproved": "Your organization registration is pending approval",
+      "checkError": "Error checking approval status",
+      "error": "An error occurred. Please try again",
+      "or": "OR",
+      "loginWithGoogle": "Login with Google",
+      "googleLoading": "Connecting to Google...",
+      "googleError": "Error with Google authentication. Please try again.",
+      "adminEmailNotAllowed": "Admin email cannot be used for Google authentication."
+      "googleLoading": "Connecting to Google...",
+      "googleError": "Error with Google authentication. Please try again."
+    },
+    "register": {
+      "title": "Register Organization",
+      "subtitle": "Create an account for your organization",
+      "basicInfo": "Basic Information",
+      "accountSecurity": "Account Security",
+      "verification": "Organization Verification",
+      "additionalInfo": "Additional Information",
+      "name": "Organization Name",
+      "namePlaceholder": "Enter organization name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter phone number",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password (min 6 characters)",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "idImage": "Organization ID Image",
+      "uploadIdImage": "Upload ID Image",
+      "address": "Address",
+      "addressPlaceholder": "Enter organization address",
+      "contactPerson": "Contact Person",
+      "contactPersonPlaceholder": "Enter contact person name",
+      "website": "Website",
+      "websitePlaceholder": "Enter website URL",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter organization description",
+      "submit": "Register",
+      "loading": "Registering...",
+      "haveAccount": "Already have an account?",
+      "login": "Login here",
+      "optional": "Optional",
+      "nameRequired": "Organization name is required",
+      "nameMinLength": "Name must be at least 3 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordMismatch": "Passwords do not match",
+      "idImageRequired": "ID image is required",
+      "invalidImageType": "Please upload an image file",
+      "imageTooLarge": "Image size must be less than 5MB",
+      "compressing": "Compressing image...",
+      "imageProcessingError": "Error processing image. Please try again.",
+      "transferReceipt":"Bank transfer receipt",
+      "uploadTransferReceipt":"Upload the transfer receipt",
+      "transferReceiptRequired":"Bank transfer receipt required",
+      "emailExists": "An account with this email already exists",
+      "weakPassword": "Password is too weak",
+      "adminEmailNotAllowed": "Admin email cannot be used for registration. Admin accounts are created manually and can only login.",
+      "error": "An error occurred. Please try again",
+      "createError": "Error creating organization request",
+      "roleError": "Error setting user role",
+      "success": "Registration successful! Your request is pending admin approval. Redirecting to login..."
+    },
+    "profile": {
+      "loading": "Loading profile...",
+      "notAuthenticated": "You are not authenticated. Please login first.",
+      "organizationNotFound": "Organization data not found.",
+      "loadError": "Error loading profile data. Please try again.",
+      "organizationProfile": "Organization Profile",
+      "basicInfo": "Basic Information",
+      "systemInfo": "System Information",
+      "verificationDocument": "Verification Document",
+      "email": "Email",
+      "phone": "Phone Number",
+      "contactPerson": "Contact Person",
+      "website": "Website",
+      "address": "Address",
+      "description": "Description",
+      "registrationDate": "Registration Date",
+      "userId": "User ID",
+      "idImage": "ID Image",
+      "transferReceipt": "Bank Transfer Receipt",
+      "noImage": "No image available",
+      "status": {
+        "pending": "Pending Approval",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "edit": {
+        "title": "Edit Organization Profile",
+        "subtitle": "Update your organization information",
+        "warning": "Note: After editing, your organization status will be set to 'Pending' and will require admin approval again.",
+        "cancel": "Cancel",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "changeImage": "Change ID Image",
+        "compressing": "Compressing image...",
+        "success": "Profile updated successfully! Your changes are pending admin approval. Redirecting...",
+        "updateError": "Error updating profile. Please try again."
+      }
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "organizations": "Organizations",
+      "subscriptions": "Subscriptions",
+      "courses": "Courses"
+    },
+    "organizations": {
+      "title": "Manage Organizations",
+      "subtitle": "View and manage organization registrations",
+      "loading": "Loading organizations...",
+      "loadError": "Error loading organizations. Please try again.",
+      "all": "All",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "viewDetails": "View Details",
+      "noOrganizations": "No organizations found",
+      "back": "Back to List",
+      "details": "Organization Details",
+      "actions": "Actions",
+      "approve": "Approve",
+      "reject": "Reject",
+      "processing": "Processing...",
+      "approveSuccess": "Organization approved successfully! Redirecting...",
+      "rejectSuccess": "Organization rejected. Redirecting...",
+      "approveError": "Error approving organization. Please try again.",
+      "rejectError": "Error rejecting organization. Please try again.",
+      "invalidId": "Invalid organization ID",
+      "notFound": "Organization not found",
+      "notificationTitle": "Notification Title",
+      "notificationMessage": "Notification Message",
+      "titlePlaceholder": "Enter notification title...",
+      "messagePlaceholder": "Enter notification message...",
+      "titleRequired": "Title is required",
+      "messageRequired": "Message is required",
+      "titleMinLength": "Title must be at least 3 characters",
+      "messageMinLength": "Message must be at least 10 characters",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "ok": "OK",
+      "error": "Error",
+      "validationError": "Validation Error",
+      "formInvalid": "Please fill in all required fields correctly",
+      "actionsDescription": "Approve or reject the organization and send a custom notification",
+      "approveInfo": "This will approve the organization and send them a notification with your message",
+      "rejectInfo": "This will reject the organization and send them a notification with your message",
+      "messageHint": "This message will be sent to the organization via notification",
+      "alreadyApproved": "Already Approved",
+      "alreadyRejected": "Already Rejected",
+      "approveSuccessMessage": "The organization has been approved and notified successfully",
+      "rejectSuccessMessage": "The organization has been rejected and notified successfully",
+      "sendNotification": "Send Notification",
+      "hideForm": "Hide Form",
+      "formInfo": "Notification Form",
+      "formInfoDescription": "Select notification type, enter title and message. Approval/Rejection types will also update organization status.",
+      "warning": "Warning",
+      "statusChangeWarning": "This notification type will change the organization status (approve or reject).",
+      "noStatusChange": "This notification type will only send a notification without changing organization status.",
+      "notificationSent": "Notification Sent",
+      "notificationSentMessage": "Notification has been sent successfully to the organization.",
+      "typeRequired": "Notification type is required",
+      "notificationType": {
+        "label": "Notification Type",
+        "approval": "Approval",
+        "rejection": "Rejection",
+        "general": "General",
+        "status": "Status Update",
+        "verification": "Verification"
+      }
+    },
+    "subscriptions": {
+      "title": "Manage Subscriptions",
+      "subtitle": "View and manage all platform subscriptions",
+      "loading": "Loading subscriptions...",
+      "loadError": "Error loading subscriptions. Please try again.",
+      "all": "All",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "viewDetails": "View Details",
+      "noSubscriptions": "No subscriptions found",
+      "active": "Active",
+      "back": "Back to List",
+      "details": "Subscription Details",
+      "subscriptionInfo": "Subscription Information",
+      "organizationInfo": "Organization Information",
+      "actions": "Actions",
+      "approve": "Approve",
+      "reject": "Reject",
+      "processing": "Processing...",
+      "approveSuccess": "Subscription approved successfully! Redirecting...",
+      "rejectSuccess": "Subscription rejected. Redirecting...",
+      "approveError": "Error approving subscription. Please try again.",
+      "rejectError": "Error rejecting subscription. Please try again.",
+      "invalidId": "Invalid subscription ID",
+      "notFound": "Subscription not found",
+      "organizationNotFound": "Organization not found"
+    },
+    "courses": {
+      "title": "Manage Courses",
+      "subtitle": "View and manage all courses",
+      "comingSoon": "Coming Soon",
+      "comingSoonDescription": "Course management features will be available soon."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "View and manage your notifications",
+    "loading": "Loading notifications...",
+    "loadError": "Error loading notifications. Please try again.",
+    "all": "All",
+    "unread": "Unread",
+    "read": "Read",
+    "markAllRead": "Mark All as Read",
+    "deleteAll": "Delete All",
+    "markAsRead": "Mark as Read",
+    "delete": "Delete",
+    "noNotifications": "No notifications",
+    "noNotificationsDescription": "You don't have any notifications yet.",
+    "back": "Back to Notifications",
+    "invalidId": "Invalid notification ID",
+    "notFound": "Notification not found",
+    "types": {
+      "approval": "Approval",
+      "rejection": "Rejection",
+      "status": "Status Update",
+      "verification": "Verification",
+      "general": "General"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to ANKH",
+      "subtitle": "Professional Training Platform for Organizations",
+      "description": "Join our exclusive platform designed specifically for organizations, associations, and institutions. Access high-quality training courses, secure video streaming, and comprehensive learning resources.",
+      "registerBtn": "Register Now",
+      "learnMoreBtn": "Learn More"
+    },
+    "features": {
+      "title": "Platform Features",
+      "subtitle": "Everything you need for effective organizational training",
+      "secure": {
+        "title": "Secure Access",
+        "description": "Controlled environment with admin approval system ensuring only verified organizations can access content."
+      },
+      "video": {
+        "title": "Video Streaming",
+        "description": "High-quality secure video streaming for all your training courses with advanced playback controls."
+      },
+      "pdfs": {
+        "title": "PDF Resources",
+        "description": "Download comprehensive PDF materials and resources to support your learning journey."
+      },
+      "quizzes": {
+        "title": "Interactive Quizzes",
+        "description": "Test your knowledge with interactive quizzes and track your progress throughout the courses."
+      },
+      "organizations": {
+        "title": "Organization Focused",
+        "description": "Designed specifically for organizations, associations, and institutions, not individual users."
+      },
+      "management": {
+        "title": "Admin Management",
+        "description": "Full administrative control over organizations, courses, and content visibility."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple steps to get started with ANKH",
+      "register": {
+        "title": "Register",
+        "description": "Submit your organization registration request with all required information and documents."
+      },
+      "approval": {
+        "title": "Admin Approval",
+        "description": "Wait for admin review and approval of your organization registration."
+      },
+      "access": {
+        "title": "Get Access",
+        "description": "Once approved, log in and access the platform with full privileges."
+      },
+      "learn": {
+        "title": "Start Learning",
+        "description": "Purchase courses, watch videos, download PDFs, and complete quizzes to enhance your skills."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose ANKH",
+      "subtitle": "Benefits of joining our platform",
+      "certified": {
+        "title": "Certified Content",
+        "description": "Access to professionally developed and certified training courses from industry experts."
+      },
+      "flexible": {
+        "title": "Flexible Learning",
+        "description": "Learn at your own pace with 24/7 access to all course materials and resources."
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "description": "Get assistance from our support team whenever you need help with the platform or courses."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join ANKH today and give your organization access to professional training courses.",
+      "registerBtn": "Register Your Organization",
+      "loginBtn": "Already Registered? Login"
+    }
+  },
+  "subscriptions": {
+    "title": "Platform Subscription",
+    "subtitle": "Manage organization platform subscription",
+    "loading": "Loading subscription...",
+    "loadError": "Error loading subscription. Please try again.",
+    "create": "Create Subscription",
+    "edit": "Edit Subscription",
+    "update": "Update",
+    "delete": "Delete Subscription",
+    "deleting": "Deleting...",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "createSubscription": "Create New Subscription",
+    "editSubscription": "Edit Subscription",
+    "status": "Status",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdAt": "Created At",
+    "updatedAt": "Last Updated",
+    "daysRemaining": "days remaining",
+    "noSubscription": "No Subscription",
+    "noSubscriptionDescription": "This organization does not have an active platform subscription.",
+    "startDateRequired": "Start date is required",
+    "endDateRequired": "End date is required",
+    "endDateMustBeAfterStart": "End date must be after start date",
+    "organizationIdRequired": "Organization ID is required",
+    "createError": "Error creating subscription. Please try again.",
+    "updateError": "Error updating subscription. Please try again.",
+    "deleteError": "Error deleting subscription. Please try again.",
+    "mySubscriptions": "My Subscriptions",
+    "mySubscriptionsDescription": "Manage your platform subscriptions and view subscription history",
+    "currentSubscription": "Current Subscription",
+    "createNew": "Create New Subscription",
+    "createNewSubscription": "Create New Subscription Request",
+    "history": "Subscription History",
+    "plan": "Subscription Plan",
+    "choosePlan": "Choose Subscription Plan",
+    "bankTransferReceipt": "Bank Transfer Receipt",
+    "uploadReceipt": "Upload Bank Transfer Receipt",
+    "compressing": "Compressing image...",
+    "submitRequest": "Submit Request",
+    "submitting": "Submitting...",
+    "notAuthenticated": "You must be logged in to view subscriptions",
+    "days": "days",
+    "statusTypes": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "plans": {
+      "monthly": "Monthly Plan",
+      "yearly": "Yearly Plan"
+    },
+    "planRequired": "Subscription plan is required",
+    "bankTransferRequired": "Bank transfer receipt is required",
+    "monthlyDurationInvalid": "Monthly subscription must be exactly 30 days",
+    "yearlyDurationInvalid": "Yearly subscription must be exactly 365 days",
+    "notifications": {
+      "created": {
+        "title": "Platform Subscription Created",
+        "message": "A new platform subscription has been created for your organization."
+      },
+      "updated": {
+        "title": "Platform Subscription Updated",
+        "message": "Your platform subscription has been updated by the administrator."
+      },
+      "deleted": {
+        "title": "Platform Subscription Deleted",
+        "message": "Your platform subscription has been deleted by the administrator."
+      }
+    }
+  },
+  "footer": {
+    "description": "Your trusted platform for educational courses and organization management.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved.",
+    "poweredBy": "Powered by ANKH Platform"
+  }
+}

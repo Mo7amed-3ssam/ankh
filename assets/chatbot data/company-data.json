@@ -1,0 +1,323 @@
+{
+  "companyName": "شركة الحداد للمزادات",
+  "companyNameEn": "Al Haddad Auctions Company",
+  "tagline": "للمزادات العلنية",
+  "taglineEn": "For Public Auctions",
+  "location": "الدمام - السعودية",
+  "locationEn": "Dammam - Saudi Arabia",
+  "address": "الدمام - المنطقة الشرقية - المملكة العربية السعودية، طريق أبو حدرية - بإتجاه البحرين - بجوار مجمع كباري الرياض",
+  "addressEn": "Dammam - Eastern Province - Saudi Arabia, Abu Hadriyah Road - Towards Bahrain - Next to Riyadh Bridges Complex",
+  "description": "نحن شركة الحداد للمزادات العلنية، رواد تنظيم المزادات في المملكة منذ أكثر من ثلاثين عامًا، ملتزمون بالشفافية والموثوقية وتقديم أفضل قيمة لعملائنا. نقدّم أفضل تجارب المزادات بروح سعودية وبكل شفافية واحترافية.",
+  "descriptionEn": "We are Al Haddad Auctions Company, pioneers in organizing auctions in the Kingdom for more than thirty years, committed to transparency, reliability and providing the best value to our customers. We provide the best auction experiences with a Saudi spirit and complete transparency and professionalism.",
+  "founded": "1993",
+  "experience": "30+",
+  "services": [
+    "مزادات السيارات الفاخرة والكلاسيكية",
+    "مزادات السيارات المستعملة",
+    "مزادات المقتنيات الثمينة",
+    "مزادات التحف والأعمال الفنية",
+    "مزادات المعدات والآليات",
+    "مزادات الأثاث والمقتنيات المنزلية",
+    "فحص وتقييم السيارات",
+    "خدمات ما بعد البيع",
+    "خدمات الشحن والتوصيل"
+  ],
+  "servicesEn": [
+    "Luxury & Classic Car Auctions",
+    "Used Car Auctions",
+    "Precious Items Auctions",
+    "Antiques & Artwork Auctions",
+    "Equipment & Machinery Auctions",
+    "Furniture & Home Items Auctions",
+    "Car Inspection & Valuation",
+    "After-Sales Services",
+    "Shipping & Delivery Services"
+  ],
+  "contact": {
+    "phone": "+966536650502",
+    "whatsapp": "+966536650502",
+    "email": "info@alhaddadauction.sa",
+    "website": "https://alhaddadauction.sa",
+    "workingHours": "من السبت إلى الخميس من 9:00 ص إلى 12:00 ظ ومن 2:00 م إلى 6:00 م",
+    "workingHoursEn": "Saturday to Thursday from 9:00 AM to 12:00 PM and from 2:00 PM to 6:00 PM",
+    "inspectionHours": "الاثنين - الجمعة: 9:00 ص - 5:00 م",
+    "inspectionHoursEn": "Monday - Friday: 9:00 AM - 5:00 PM"
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/alhaddadauctions",
+    "instagram": "https://instagram.com/alhaddadauctions",
+    "twitter": "https://twitter.com/alhaddadauctions",
+    "linkedin": "https://linkedin.com/company/alhaddadauctions",
+    "tiktok": "https://tiktok.com/@alhaddadauctions"
+  },
+  "stats": {
+    "auctionsCompleted": "1000+",
+    "happyClients": "500+",
+    "itemsSold": "2000+",
+    "yearsExperience": "30+"
+  },
+  "features": {
+    "trust": "ثقة وموثوقية",
+    "trustDesc": "خبرة سنين وصفقات ناجحة تشهد لنا",
+    "transparency": "عملية شفافة",
+    "transparencyDesc": "نعتمد أعلى درجات الوضوح في عرض المعلومات والتفاصيل، مما يعزز الثقة ويضمن تجربة بيع وشراء عادلة",
+    "expertise": "فريق خبراء",
+    "expertiseDesc": "فريق محترف بخبرة واسعة في تنظيم المزادات، يعمل على تنسيق وتسويق المزادات بشكل احترافي",
+    "coverage": "وصول واسع",
+    "coverageDesc": "نغطي بمزاداتنا جميع مناطق المملكة، بما يضمن قاعدة كبيرة ومتنوعة من المشترين",
+    "liveBidding": "مزايدة مباشرة",
+    "securePayments": "دفعات آمنة",
+    "qualityGuarantee": "ضمان الجودة",
+    "expertInspection": "فحص خبراء",
+    "fastDelivery": "توصيل سريع"
+  },
+  "featuresEn": {
+    "trust": "Trust & Reliability",
+    "trustDesc": "Years of experience and successful deals testify to us",
+    "transparency": "Transparent Process",
+    "transparencyDesc": "We adopt the highest levels of clarity in displaying information and details, which enhances trust and ensures a fair buying and selling experience",
+    "expertise": "Expert Team",
+    "expertiseDesc": "A professional team with extensive experience in organizing auctions, working to coordinate and market auctions professionally",
+    "coverage": "Wide Reach",
+    "coverageDesc": "We cover all regions of the Kingdom with our auctions, ensuring a large and diverse base of buyers",
+    "liveBidding": "Live Bidding",
+    "securePayments": "Secure Payments",
+    "qualityGuarantee": "Quality Guarantee",
+    "expertInspection": "Expert Inspection",
+    "fastDelivery": "Fast Delivery"
+  },
+  "values": {
+    "trust": {
+      "title": "الثقة",
+      "description": "بناء علاقات دائمة من خلال عمليات مزادات موثوقة وشفافة."
+    },
+    "transparency": {
+      "title": "الشفافية",
+      "description": "الانفتاح الكامل في جميع تعاملاتنا، من فحص السيارات إلى المعاملات النهائية."
+    },
+    "excellence": {
+      "title": "التميز",
+      "description": "السعي لأعلى جودة في كل جانب من جوانب خدمات المزادات لدينا."
+    },
+    "integrity": {
+      "title": "النزاهة",
+      "description": "الحفاظ على أعلى المعايير الأخلاقية في جميع ممارساتنا التجارية."
+    }
+  },
+  "valuesEn": {
+    "trust": {
+      "title": "Trust",
+      "description": "Building lasting relationships through reliable and transparent auction processes."
+    },
+    "transparency": {
+      "title": "Transparency",
+      "description": "Complete openness in all our transactions, from car inspection to final transactions."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "Striving for the highest quality in every aspect of our auction services."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Maintaining the highest ethical standards in all our business practices."
+    }
+  },
+  "founder": {
+    "name": "عبد المحسن باقر الحداد",
+    "nameEn": "Abdul Mohsen Baqer Al Haddad",
+    "position": "المؤسس والرئيس التنفيذي",
+    "positionEn": "Founder & CEO",
+    "description": "الأستاذ عبد المحسن باقر الحداد، مؤسس شركة الحداد للمزادات العلنية. استلهم مسيرته من والده الذي كان له دور بارز في وضع اللبنات الأولى لنظام المزادات بالمملكة. بخبرة متراكمة تجاوزت ثلاثين عامًا، قاد الشركة لتصبح رائدة في مجال المزادات في المملكة العربية السعودية.",
+    "descriptionEn": "Mr. Abdul Mohsen Baqer Al Haddad, founder of Al Haddad Auctions Company. He drew inspiration from his father who played a prominent role in laying the first foundations of the auction system in the Kingdom. With accumulated experience exceeding thirty years, he led the company to become a leader in the auction field in Saudi Arabia.",
+    "quote": "نؤمن بتقديم أفضل تجارب المزادات لعملائنا بالنزاهة والشفافية والتميز. نقدّم أفضل تجارب المزادات بروح سعودية وبكل شفافية واحترافية.",
+    "quoteEn": "We believe in providing the best auction experiences for our customers with integrity, transparency and excellence. We provide the best auction experiences with a Saudi spirit and complete transparency and professionalism."
+  },
+  "auctionTypes": {
+    "live": "مزاد مباشر",
+    "upcoming": "مزاد قادم",
+    "previous": "مزاد سابق",
+    "public": "مزاد علني",
+    "sealedBid": "مزاد بالظرف المغلق",
+    "cars": "مزادات السيارات الفاخرة والكلاسيكية",
+    "items": "مزادات المقتنيات الثمينة",
+    "antiques": "مزادات التحف والأعمال الفنية",
+    "equipment": "مزادات المعدات والآليات",
+    "furniture": "مزادات الأثاث والمقتنيات المنزلية"
+  },
+  "auctionTypesEn": {
+    "live": "Live Auction",
+    "upcoming": "Upcoming Auction",
+    "previous": "Previous Auction",
+    "public": "Public Auction",
+    "sealedBid": "Sealed Bid Auction",
+    "cars": "Luxury & Classic Car Auctions",
+    "items": "Precious Items Auctions",
+    "antiques": "Antiques & Artwork Auctions",
+    "equipment": "Equipment & Machinery Auctions",
+    "furniture": "Furniture & Home Items Auctions"
+  },
+  "participationSteps": [
+    "تواصل معنا عبر واتساب أو الهاتف",
+    "احصل على معلومات المزاد والمواد المعروضة",
+    "دفع عربون قدره 10,000 ريال لدخول المزاد",
+    "شارك في المزاد المباشر أو قدم مزايدتك",
+    "ادفع واستلم سيارتك أو مقتنياتك"
+  ],
+  "participationStepsEn": [
+    "Contact us via WhatsApp or phone",
+    "Get auction information and displayed items",
+    "Pay a deposit of 10,000 SAR to enter the auction",
+    "Participate in live auction or submit your bid",
+    "Pay and receive your car or items"
+  ],
+  "paymentMethods": ["التحويلات البنكية", "الشيكات المعتمدة", "الدفع النقدي", "الدفع الإلكتروني"],
+  "paymentMethodsEn": ["Bank Transfers", "Certified Checks", "Cash Payment", "Electronic Payment"],
+  "shippingServices": {
+    "available": true,
+    "description": "نقدم خدمات الشحن والتوصيل لجميع أنحاء المملكة العربية السعودية",
+    "descriptionEn": "We provide shipping and delivery services throughout Saudi Arabia",
+    "timeframe": "يختلف حسب الموقع ونوع العنصر",
+    "timeframeEn": "Varies by location and item type"
+  },
+  "inspectionServices": {
+    "available": true,
+    "description": "خدمة فحص وتقييم السيارات من قبل خبراء متخصصين",
+    "descriptionEn": "Car inspection and valuation service by specialized experts",
+    "hours": "الاثنين-الجمعة 9:00 ص - 5:00 م",
+    "hoursEn": "Monday-Friday 9:00 AM - 5:00 PM"
+  },
+  "faq": {
+    "general": [
+      {
+        "question": "ما هي شركة مزادات الحداد؟",
+        "answer": "شركة مزادات الحداد هي دار مزادات رائدة متخصصة في المقتنيات الثمينة والأصول الحصرية. نقدم خدمات مزادات آمنة وشفافة ومهنية من خلال منصتنا الرقمية."
+      },
+      {
+        "question": "كيف يمكنني المشاركة في المزادات؟",
+        "answer": "للمشاركة في مزاداتنا، يمكنك تصفح العناصر المتاحة على موقعنا والتواصل معنا عبر الواتساب أو الهاتف لتقديم مزايدتك. سيقوم فريقنا بإرشادك خلال العملية بأكملها."
+      }
+    ],
+    "bidding": [
+      {
+        "question": "كيف تعمل عملية المزايدة؟",
+        "answer": "عملية المزايدة لدينا بسيطة وشفافة. تواصل معنا عبر الواتساب أو الهاتف لتقديم مزايدتك. سيقوم فريقنا بإبقائك محدثاً حول حالة مزايداتك وإشعارك بأي مزايدات مضادة."
+      }
+    ],
+    "payment": [
+      {
+        "question": "ما طرق الدفع التي تقبلونها؟",
+        "answer": "نقبل طرق دفع متنوعة بما في ذلك التحويلات البنكية والشيكات المعتمدة والدفع النقدي. سيتم مناقشة خيارات الدفع المحددة مع المزايدين الفائزين."
+      }
+    ]
+  },
+  "greetings": {
+    "welcome": [
+      "مرحباً وسهلاً بك!",
+      "أهلاً وسهلاً!",
+      "مرحباً بك في شركة الحداد للمزادات!",
+      "أهلاً بك! كيف يمكنني مساعدتك؟"
+    ],
+    "welcomeEn": [
+      "Hello and welcome!",
+      "Welcome to Al Haddad Auctions!",
+      "Hi there! How can I help you?",
+      "Good to see you here!"
+    ],
+    "goodbye": ["مع السلامة!", "إلى اللقاء!", "حظاً سعيداً!", "نحن هنا دائماً لخدمتك!"],
+    "goodbyeEn": ["Goodbye!", "See you later!", "Take care!", "We're always here to help!"],
+    "thanks": ["العفو!", "سعيد بمساعدتك!", "لا شكر على واجب!", "أي وقت!"],
+    "thanksEn": ["You're welcome!", "Happy to help!", "My pleasure!", "Anytime!"]
+  },
+  "pricing": {
+    "deposit": "عربون دخول المزاد: 10,000 ريال",
+    "depositEn": "Auction entry deposit: 10,000 SAR",
+    "depositRefund": "يُسترد العربون خلال 7 أيام من انتهاء المزاد إذا لم يتم الشراء",
+    "depositRefundEn": "Deposit is refunded within 7 days of auction end if no purchase is made",
+    "depositCompletion": "يُستكمل العربون حتى 30% من قيمة المشتريات فور الترسية",
+    "depositCompletionEn": "Deposit is completed up to 30% of purchase value immediately upon award",
+    "finalPayment": "يجب سداد باقي المبلغ خلال 3 أيام فقط من تاريخ انتهاء كامل المزاد",
+    "finalPaymentEn": "Remaining amount must be paid within 3 days of the end of the entire auction",
+    "buyerCommission": "عمولة المشتري: 2.5% من قيمة البيع (غير شاملة ضريبة القيمة المضافة 15%)",
+    "buyerCommissionEn": "Buyer's commission: 2.5% of sale value (excluding 15% VAT)",
+    "carFee": "رسم إداري ثابت: 700 ريال على كل سيارة مقابل فحص، تأمين ولوحات جمركية",
+    "carFeeEn": "Fixed administrative fee: 700 SAR per car for inspection, insurance and customs plates",
+    "vat": "جميع الرسوم والعمولات خاضعة لضريبة القيمة المضافة بنسبة 15%",
+    "vatEn": "All fees and commissions are subject to 15% VAT",
+    "storageFee": "رسوم تخزين: 300 ريال يومياً لكل بند بعد مرور 7 أيام من تاريخ الشراء",
+    "storageFeeEn": "Storage fee: 300 SAR per day per item after 7 days from purchase date",
+    "shippingFee": "رسوم الشحن والنقل والتحميل والتفريغ على حساب المشتري",
+    "shippingFeeEn": "Shipping, transportation, loading and unloading fees are the buyer's responsibility",
+    "ownershipTransfer": "جميع رسوم نقل الملكية على حساب المشتري بالكامل",
+    "ownershipTransferEn": "All ownership transfer fees are the buyer's full responsibility",
+    "inspectionFee": "رسوم الفحص متوفرة عند الطلب",
+    "inspectionFeeEn": "Inspection fees available upon request"
+  },
+  "commonQuestions": {
+    "arabic": [
+      "متى المزاد القادم؟",
+      "كيف أشارك في المزاد؟",
+      "ما هو شرط دخول المزاد؟",
+      "هل يمكن استرداد العربون؟",
+      "ما هي رسوم المشاركة؟",
+      "ما هي نسبة العمولة؟",
+      "هل تقدمون خدمة الشحن؟",
+      "ما هي طرق الدفع المقبولة؟",
+      "هل يمكن إرجاع السلعة بعد الشراء؟",
+      "هل يتم بيع السلع بضمان؟",
+      "من يتحمل رسوم النقل؟",
+      "ماذا عن رسوم نقل الملكية؟",
+      "ماذا يحدث إذا لم أستلم السلعة؟",
+      "أين موقعكم؟",
+      "متى تفتحون؟",
+      "كيف أتواصل معكم؟",
+      "هل هناك متطلبات خاصة للشركات؟",
+      "ما هي أنواع المزادات المتاحة؟"
+    ],
+    "english": [
+      "When is the next auction?",
+      "How do I participate in auctions?",
+      "What is the requirement to enter the auction?",
+      "Can the deposit be refunded?",
+      "What are the participation fees?",
+      "What is the commission rate?",
+      "Do you offer shipping services?",
+      "What payment methods do you accept?",
+      "Can I return the item after purchase?",
+      "Are items sold with warranty?",
+      "Who bears the transportation costs?",
+      "What about ownership transfer fees?",
+      "What happens if I don't receive the item?",
+      "Where is your location?",
+      "When are you open?",
+      "How can I contact you?",
+      "Are there special requirements for companies?",
+      "What types of auctions are available?"
+    ]
+  },
+  "terms": {
+    "depositRequired": "يشترط لدخول المزاد دفع عربون ثابت قدره 10,000 ريال",
+    "depositRequiredEn": "A fixed deposit of 10,000 SAR is required to enter the auction",
+    "depositRefund": "يُسترد العربون خلال 7 أيام من انتهاء المزاد إذا لم يتم الشراء",
+    "depositRefundEn": "Deposit is refunded within 7 days of auction end if no purchase is made",
+    "depositCompletion": "يُستكمل العربون حتى 30% من قيمة المشتريات فور الترسية",
+    "depositCompletionEn": "Deposit is completed up to 30% of purchase value immediately upon award",
+    "finalPayment": "يجب سداد باقي المبلغ خلال 3 أيام فقط من تاريخ انتهاء كامل المزاد",
+    "finalPaymentEn": "Remaining amount must be paid within 3 days of the end of the entire auction",
+    "noReturn": "البيع نهائي ولا يحق للمشتري التراجع",
+    "noReturnEn": "Sale is final and buyer has no right to return",
+    "asIs": "جميع المعروضات تُباع بالحالة الراهنة (كما هي) دون أي ضمان",
+    "asIsEn": "All items are sold as-is without any warranty",
+    "buyerResponsibility": "جميع رسوم النقل والتحميل والتفريغ ونقل الملكية على حساب المشتري",
+    "buyerResponsibilityEn": "All transportation, loading, unloading and ownership transfer fees are the buyer's responsibility",
+    "storageFee": "تُفرض رسوم تخزين 300 ريال يومياً لكل بند بعد مرور 7 أيام من تاريخ الشراء",
+    "storageFeeEn": "Storage fee of 300 SAR per day per item is charged after 7 days from purchase date",
+    "commission": "تُحتسب عمولة الشراء بنسبة 2.5% من قيمة المشتريات",
+    "commissionEn": "Purchase commission is calculated at 2.5% of purchase value",
+    "carFee": "يُضاف رسم إداري ثابت بقيمة 700 ريال على كل سيارة",
+    "carFeeEn": "A fixed administrative fee of 700 SAR is added per car",
+    "vat": "جميع الرسوم والعمولات خاضعة لضريبة القيمة المضافة بنسبة 15%",
+    "vatEn": "All fees and commissions are subject to 15% VAT",
+    "companyRequirements": "يجب على الشركات تقديم تفويض شراء مصدّق من الغرفة التجارية",
+    "companyRequirementsEn": "Companies must provide a certified purchase authorization from the Chamber of Commerce"
+  }
+}
