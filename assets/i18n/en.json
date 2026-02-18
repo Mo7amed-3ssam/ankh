@@ -13,7 +13,8 @@
     "dashboard": "Dashboard",
     "viewProfile": "View Profile",
     "notifications": "Notifications",
-    "logout": "Logout"
+    "logout": "Logout",
+    "booking": "Book Offline Training Course"
   },
   "auth": {
     "login": {
@@ -91,9 +92,9 @@
       "imageTooLarge": "Image size must be less than 5MB",
       "compressing": "Compressing image...",
       "imageProcessingError": "Error processing image. Please try again.",
-      "transferReceipt":"Bank transfer receipt",
-      "uploadTransferReceipt":"Upload the transfer receipt",
-      "transferReceiptRequired":"Bank transfer receipt required",
+      "transferReceipt": "Bank transfer receipt",
+      "uploadTransferReceipt": "Upload the transfer receipt",
+      "transferReceiptRequired": "Bank transfer receipt required",
       "emailExists": "An account with this email already exists",
       "weakPassword": "Password is too weak",
       "adminEmailNotAllowed": "Admin email cannot be used for registration. Admin accounts are created manually and can only login.",
@@ -146,7 +147,12 @@
       "title": "Admin Dashboard",
       "organizations": "Organizations",
       "subscriptions": "Subscriptions",
-      "courses": "Courses"
+      "courses": "Courses",
+      "management": "Management",
+      "quickLinks": "Quick Links",
+      "backToHome": "Back to Home",
+      "adminRole": "System Administrator",
+      "bookings": "Bookings"
     },
     "organizations": {
       "title": "Manage Organizations",
@@ -159,6 +165,8 @@
       "rejected": "Rejected",
       "viewDetails": "View Details",
       "noOrganizations": "No organizations found",
+      "searchPlaceholder": "Search by name, email, or phone...",
+      "searchResults": "Search Results",
       "back": "Back to List",
       "details": "Organization Details",
       "actions": "Actions",
@@ -223,6 +231,8 @@
       "rejected": "Rejected",
       "viewDetails": "View Details",
       "noSubscriptions": "No subscriptions found",
+      "searchPlaceholder": "Search by name, email, or phone...",
+      "searchResults": "Search Results",
       "active": "Active",
       "back": "Back to List",
       "details": "Subscription Details",
@@ -386,14 +396,14 @@
       "videoId": "Video ID",
       "videoIdPlaceholder": "Enter Bunny video ID",
       "videoIdHelp": "The Bunny.net video ID",
-      "playbackUrl": "Playback URL",
-      "playbackUrlPlaceholder": "Enter Bunny playback URL",
-      "playbackUrlHelp": "The Bunny.net iframe or HLS playback URL",
+      "libraryId": "Library ID",
+      "libraryIdPlaceholder": "Enter Bunny library ID",
+      "libraryIdHelp": "The Bunny.net library ID",
       "pdfDetails": "PDF Details",
       "pdfUrl": "PDF URL",
       "pdfUrlPlaceholder": "Enter PDF file URL",
       "pdfUrlHelp": "URL to the PDF file",
-      "videoFieldsRequired": "Video ID and Playback URL are required for video lessons",
+      "videoFieldsRequired": "Video ID and Library ID are required for video lessons",
       "pdfUrlRequired": "PDF URL is required for PDF lessons",
       "hasVideo": "Has Video",
       "hasPdf": "Has PDF",
@@ -427,6 +437,23 @@
       "deleteQuizConfirmText": "Are you sure you want to delete this quiz? All questions will also be deleted.",
       "loadQuestionsError": "Error loading questions. Please try again.",
       "questionsCreateError": "Error creating questions. Please try again."
+    },
+    "bookings": {
+      "title": "Manage Bookings",
+      "subtitle": "View and manage offline course booking requests",
+      "loading": "Loading bookings...",
+      "loadError": "Error loading bookings. Please try again.",
+      "searchPlaceholder": "Search by name, phone, or course name...",
+      "searchResults": "Search Results",
+      "total": "bookings",
+      "trainees": "Trainees",
+      "noBookings": "No bookings found",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "deleteConfirmTitle": "Delete Booking?",
+      "deleteConfirmText": "Are you sure you want to delete this booking? This action cannot be undone.",
+      "deleteSuccess": "Booking deleted successfully",
+      "deleteError": "Error deleting booking. Please try again."
     }
   },
   "notifications": {
@@ -455,14 +482,63 @@
     }
   },
   "home": {
+    "dashboard": {
+      "greetingMorning": "Good Morning",
+      "greetingAfternoon": "Good Afternoon",
+      "greetingEvening": "Good Evening",
+      "welcomeBack": "Welcome Back",
+      "subtitle": "Continue your learning journey with ANKH platform",
+      "quickActions": "Quick Actions",
+      "actions": {
+        "courses": "Browse Courses",
+        "coursesDesc": "Explore and continue your courses",
+        "subscriptions": "Subscriptions",
+        "subscriptionsDesc": "Manage your subscription plans",
+        "profile": "My Profile",
+        "profileDesc": "View and edit your profile",
+        "support": "Help & Support",
+        "supportDesc": "Get assistance when needed"
+      },
+      "startLearning": {
+        "title": "Ready to Start Learning?",
+        "description": "Access all courses, videos, PDFs, and quizzes with your active subscription.",
+        "button": "Go to Courses"
+      },
+      "tips": {
+        "title": "Learning Tips",
+        "tip1": {
+          "title": "Watch Videos",
+          "description": "Complete video lessons to unlock quizzes and track your progress."
+        },
+        "tip2": {
+          "title": "Take Quizzes",
+          "description": "Test your knowledge after each lesson to reinforce learning."
+        },
+        "tip3": {
+          "title": "Stay Consistent",
+          "description": "Regular learning sessions lead to better retention and results."
+        }
+      }
+    },
     "hero": {
+      "badge": "Premium Learning Platform",
       "title": "Welcome to ANKH",
       "subtitle": "Professional Training Platform for Organizations",
       "description": "Join our exclusive platform designed specifically for organizations, associations, and institutions. Access high-quality training courses, secure video streaming, and comprehensive learning resources.",
-      "registerBtn": "Register Now",
-      "learnMoreBtn": "Learn More"
+      "registerBtn": "Get Started Free",
+      "loginBtn": "Sign In",
+      "stats": {
+        "courses": "Courses",
+        "organizations": "Organizations",
+        "support": "Support"
+      },
+      "floatingCards": {
+        "video": "HD Video",
+        "certified": "Certified"
+      }
     },
     "features": {
+      "badge": "Features",
       "title": "Platform Features",
       "subtitle": "Everything you need for effective organizational training",
       "secure": {
@@ -491,6 +567,7 @@
       }
     },
     "howItWorks": {
+      "badge": "Process",
       "title": "How It Works",
       "subtitle": "Simple steps to get started with ANKH",
       "register": {
@@ -511,6 +588,7 @@
       }
     },
     "benefits": {
+      "badge": "Benefits",
       "title": "Why Choose ANKH",
       "subtitle": "Benefits of joining our platform",
       "certified": {
@@ -527,11 +605,152 @@
       }
     },
     "cta": {
+      "badge": "Start Today",
       "title": "Ready to Get Started?",
       "description": "Join ANKH today and give your organization access to professional training courses.",
       "registerBtn": "Register Your Organization",
       "loginBtn": "Already Registered? Login"
+    },
+    "status": {
+      "approved": "Approved",
+      "pending": "Under Review",
+      "rejected": "Rejected"
+    },
+    "statusAlert": {
+      "pending": {
+        "title": "Your Account is Under Review",
+        "message": "Thank you for registering with ANKH platform! Your organization registration request is currently being reviewed by our administration team.",
+        "info": "You will be notified once your account is approved",
+        "button": "Got it"
+      },
+      "rejected": {
+        "title": "Registration Request Rejected",
+        "message": "We regret to inform you that your organization registration request has been rejected. This may be due to incomplete information or invalid documents.",
+        "info": "Please contact support for more information",
+        "button": "OK",
+        "contactButton": "Contact Support"
+      }
     }
+  },
+  "subscribe": {
+    "title": "Choose Your Plan",
+    "subtitle": "Select the plan that suits you and start your learning journey",
+    "choosePlan": "Choose Plan",
+    "mostPopular": "Most Popular",
+    "subscribeNow": "Subscribe Now",
+    "month": "month",
+    "year": "year",
+    "paidYearly": "Pay",
+    "currency": "EGP",
+    "perMonth": "per month",
+    "perYear": "per year",
+    "savings": "Save",
+    "featuresTitle": "Subscription Benefits",
+    "features": {
+      "allCourses": "Hundreds of training courses from the best instructors",
+      "unlimitedAccess": "Unlimited access to all courses in all fields for unlimited times during the subscription period",
+      "certificate": "Certificate after completing each course",
+      "support": "24/7 technical support",
+      "priority": "Priority in technical support"
+    },
+    "platformFeatures": {
+      "courses": "Hundreds of training courses from the best instructors",
+      "unlimited": "Unlimited access to all courses in all fields for unlimited times during the subscription period",
+      "certificate": "Certificate after completing each course"
+    },
+    "plans": {
+      "monthly": {
+        "name": "Monthly",
+        "description": "Flexible monthly subscription"
+      },
+      "yearly": {
+        "name": "Yearly",
+        "description": "Yearly subscription with bigger savings"
+      }
+    },
+    "paymentMethods": {
+      "title": "Available Payment Methods",
+      "description": "Choose your preferred payment method",
+      "bankTransfer": "Bank Transfer",
+      "instapay": "InstaPay",
+      "vodafoneCash": "Vodafone Cash",
+      "fawry": "Fawry",
+      "viewAll": "View All Payment Methods"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Register now and start your learning journey with ANKH platform",
+      "button": "Manage My Subscriptions"
+    }
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "subtitle": "Choose your preferred payment method to complete your subscription",
+    "importantNote": {
+      "title": "Important Note",
+      "text": "After completing the payment, please keep the receipt image and upload it in My Subscriptions page to activate your subscription."
+    },
+    "howToPay": "How to Pay",
+    "bankTransfer": {
+      "name": "Bank Transfer",
+      "description": "Direct transfer to our bank account",
+      "bankName": "Bank Name",
+      "bankNameValue": "National Bank of Egypt",
+      "accountNumber": "Account Number",
+      "accountNumberValue": "1234567890123456",
+      "accountName": "Account Holder Name",
+      "accountNameValue": "ANKH Learning Platform",
+      "iban": "IBAN",
+      "ibanValue": "EG123456789012345678901234",
+      "instructions": {
+        "1": "Transfer from your bank account or any branch",
+        "2": "Enter the account number and holder name accurately",
+        "3": "Keep the transfer receipt image for uploading later"
+      }
+    },
+    "instapay": {
+      "name": "InstaPay",
+      "description": "Instant transfer via InstaPay app",
+      "accountName": "Account Name",
+      "accountNameValue": "ANKH Learning Platform",
+      "ipaAddress": "IPA Address",
+      "ipaAddressValue": "ankh@instapay",
+      "instructions": {
+        "1": "Open the InstaPay app on your phone",
+        "2": "Choose money transfer and enter the IPA address",
+        "3": "Enter the amount and complete the transfer"
+      }
+    },
+    "vodafoneCash": {
+      "name": "Vodafone Cash",
+      "description": "Pay via Vodafone Cash wallet",
+      "walletNumber": "Wallet Number",
+      "walletNumberValue": "01012345678",
+      "walletName": "Wallet Owner Name",
+      "walletNameValue": "ANKH Learning Platform",
+      "instructions": {
+        "1": "Open Vodafone Cash app or dial *9*",
+        "2": "Choose transfer money and enter wallet number",
+        "3": "Enter amount and PIN to complete"
+      }
+    },
+    "fawry": {
+      "name": "Fawry",
+      "description": "Pay from any Fawry outlet",
+      "referenceCode": "Payment Code",
+      "referenceCodeValue": "ANKH2024",
+      "instructions": {
+        "1": "Go to nearest Fawry outlet or use My Fawry app",
+        "2": "Request bill payment and enter the payment code",
+        "3": "Pay the required amount and keep the receipt"
+      }
+    },
+    "afterPayment": {
+      "title": "After Payment",
+      "text": "Upload the payment receipt image in My Subscriptions page to activate your subscription. Your request will be reviewed and activated as soon as possible.",
+      "button": "Upload Payment Receipt"
+    },
+    "backToPlans": "Back to Subscription Plans"
   },
   "subscriptions": {
     "title": "Platform Subscription",
@@ -554,7 +773,7 @@
     "updatedAt": "Last Updated",
     "daysRemaining": "days remaining",
     "noSubscription": "No Subscription",
-    "noSubscriptionDescription": "This organization does not have an active platform subscription.",
+    "noSubscriptionDescription": "You don't have an active subscription. Subscribe now to access all courses.",
     "startDateRequired": "Start date is required",
     "endDateRequired": "End date is required",
     "endDateMustBeAfterStart": "End date must be after start date",
@@ -569,9 +788,15 @@
     "createNewSubscription": "Create New Subscription Request",
     "history": "Subscription History",
     "plan": "Subscription Plan",
+    "priceDetails": "Price Details",
+    "equivalentTo": "Equivalent to",
+    "youSave": "You save",
+    "perMonth": "per month",
+    "viewPaymentMethods": "View Payment Methods",
     "choosePlan": "Choose Subscription Plan",
     "bankTransferReceipt": "Bank Transfer Receipt",
     "uploadReceipt": "Upload Bank Transfer Receipt",
+    "uploadHint": "Click to upload receipt image (PNG, JPG)",
     "compressing": "Compressing image...",
     "submitRequest": "Submit Request",
     "submitting": "Submitting...",
@@ -605,12 +830,74 @@
       }
     }
   },
+  "booking": {
+    "badge": "Offline Training Course",
+    "title": "Book an Offline Training Course",
+    "subtitle": "Fill out the form below to book an in-person training course and our team will contact you shortly",
+    "formTitle": "Booking Form",
+    "formSubtitle": "Please fill in all required fields to complete your booking",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 3 characters",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid phone number",
+    "courseName": "Course Name",
+    "courseNamePlaceholder": "Enter the desired course name",
+    "courseNameRequired": "Course name is required",
+    "courseNameMinLength": "Course name must be at least 3 characters",
+    "numberOfTrainees": "Number of Trainees",
+    "numberOfTraineesPlaceholder": "Enter number of trainees",
+    "numberOfTraineesRequired": "Number of trainees is required",
+    "numberOfTraineesMin": "At least 1 trainee is required",
+    "numberOfTraineesMax": "Maximum 500 trainees",
+    "trainingPeriod": "Training Schedule",
+    "selectPeriod": "Select preferred period",
+    "morning": "Morning (10 AM to 2 PM)",
+    "evening": "Evening (6 PM to 10 PM)",
+    "trainingPeriodRequired": "Please select a training period",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Add any notes or special requirements...",
+    "optional": "Optional",
+    "submit": "Submit Booking Request",
+    "submitting": "Submitting...",
+    "successTitle": "Request Submitted Successfully!",
+    "successMessage": "Thank you! Your booking request has been received and our team will contact you shortly.",
+    "errorTitle": "Error",
+    "errorMessage": "An error occurred while submitting your request. Please try again.",
+    "ok": "OK",
+    "info": {
+      "support": {
+        "title": "Continuous Support",
+        "description": "Our team is available to help with any inquiries"
+      },
+      "certified": {
+        "title": "Certified Courses",
+        "description": "Completion certificate after each training course"
+      },
+      "location": {
+        "title": "Flexible Location",
+        "description": "Training at your location or our premises"
+      }
+    }
+  },
   "footer": {
-    "description": "Your trusted platform for educational courses and organization management.",
-    "quickLinks": "Quick Links",
+    "description": "A professional learning platform built for organizations and institutions to develop talent and build leaders.",
+    "explore": "Explore",
+    "services": "Services",
+    "legal": "Legal",
     "followUs": "Follow Us",
     "allRightsReserved": "All rights reserved.",
-    "poweredBy": "Powered by ANKH Platform"
+    "poweredBy": "Powered by ANKH Learning Platform",
+    "paymentMethods": "Payment Methods",
+    "booking": "Book Offline Course",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "madeWith": "Made with",
+    "by": "by",
+    "target": "Target Marketing"
   },
   "courses": {
     "title": "Courses",
@@ -652,6 +939,172 @@
     "courseNotPublishedDescription": "This course is not yet published and is not available for viewing.",
     "error": "Error",
     "loadError": "Error loading course. Please try again.",
-    "ok": "OK"
+    "ok": "OK",
+    "startCourse": "Start Course",
+    "loginToStartCourse": "Login to Start Course",
+    "subscribeToAccess": "Subscribe to Access",
+    "subscriptionActive": "Your subscription is active",
+    "loginRequired": "Please login to access this course",
+    "sections": "Course Sections",
+    "noSections": "No sections available",
+    "selectSection": "Select a Section",
+    "selectSectionDescription": "Choose a section from the sidebar to view its content",
+    "sectionContent": "Section Content",
+    "sectionId": "Section ID",
+    "courseId": "Course ID",
+    "noSectionSelected": "No section selected",
+    "loadingLessons": "Loading lessons...",
+    "retry": "Retry",
+    "lesson": "Lesson",
+    "lessons": "Lessons",
+    "noLessons": "No Lessons Available",
+    "noLessonsDescription": "This section doesn't have any lessons yet.",
+    "video": "Video",
+    "pdf": "PDF",
+    "videoAndPdf": "Video & PDF",
+    "watchVideo": "Watch Video",
+    "openPdf": "Open PDF",
+    "close": "Close",
+    "quiz": {
+      "loading": "Loading quiz...",
+      "loadingQuiz": "Loading quiz...",
+      "loadError": "Error loading quiz. Please try again.",
+      "questions": "questions",
+      "passingScore": "Passing Score",
+      "previousAttempts": "Previous Attempts",
+      "attempts": "Attempts",
+      "bestScore": "Best Score",
+      "status": "Status",
+      "passed": "Passed",
+      "notPassed": "Not Passed",
+      "lastAttempt": "Last Attempt",
+      "readyToStart": "Ready to start the quiz?",
+      "instructions": "Answer all questions to the best of your ability. You can review your answers before submitting.",
+      "start": "Start Quiz",
+      "retake": "Retake Quiz",
+      "question": "Question",
+      "answered": "answered",
+      "previous": "Previous",
+      "next": "Next",
+      "submit": "Submit Quiz",
+      "submitting": "Submitting...",
+      "answerAllQuestions": "Please answer all questions before submitting.",
+      "submitError": "Error submitting quiz. Please try again.",
+      "congratulations": "Congratulations!",
+      "keepTrying": "Keep Trying!",
+      "yourScore": "Your Score",
+      "reviewAnswers": "Review Your Answers",
+      "backToLesson": "Back to Lesson",
+      "notFound": "Quiz not found.",
+      "tryAgain": "Try Again",
+      "attention": "Attention",
+      "error": "Error",
+      "failed": "You didn't pass this time. Review the correct answers and try again."
+    },
+    "progress": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started",
+      "resumeLesson": "Resume Lesson",
+      "startLesson": "Start Lesson",
+      "continueWatching": "Continue Watching",
+      "watchProgress": "Watch Progress",
+      "quizRequired": "Quiz Required",
+      "quizPassed": "Quiz Passed",
+      "completeVideo": "Complete video to unlock",
+      "passQuiz": "Pass quiz to complete lesson",
+      "lessonCompleted": "Lesson Completed!",
+      "courseCompleted": "Course Completed!",
+      "courseProgress": "Course Progress",
+      "lessonsCompleted": "lessons completed"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Privacy Policy for ANKH Platform",
+    "lastUpdated": "Last Updated: December 2022",
+    "intro": "This privacy policy (hereinafter referred to as the \"Policy\") represents the general framework and organizational principles governing how the management, employees, and contractors of ANKH Platform handle the provision of services through the electronic platform, in the context of operating and managing the platform's website. Given that the platform relies on user interactions and the submission of various data and information, some of this data may be personal in nature, while other information is publicly available. All such data is collectively referred to as \"User Data\".",
+    "sections": {
+      "scope": {
+        "title": "1. Scope of This Policy",
+        "content": "This Policy aims to clarify the internal rules and guidelines adopted by ANKH Platform in handling User Data, and is shared with administrators, employees, service providers, and partners to define acceptable and unacceptable conduct when collecting, using, or sharing such data. The Policy also aims to inform users about how technical systems within the platform that store or process User Data are managed, noting that some services or interactions may occur through independent third parties that may have their own privacy policies. This Policy is not a legally binding contract, nor does it constitute an explicit or implicit commitment or guarantee from the platform toward users or any official or unofficial entity; rather, it is a guiding organizational framework."
+      },
+      "management": {
+        "title": "2. Policy Management and Compliance",
+        "content": "ANKH Platform retains the full right and authority to assess compliance with this Policy within its organizational structure and to take appropriate measures in case of violations, whether internal or organizational. The platform also reserves the right to determine whether the results of such measures are treated as confidential information or disclosed."
+      },
+      "dataCollection": {
+        "title": "3. Collection and Use of User Data",
+        "content": "User Data is collected to enable the platform to provide its services optimally. This data includes, but is not limited to, information that helps verify the user's identity and legal eligibility, such as age data, login credentials including username and password, and communication methods such as email and phone number. The data may also include information necessary to complete transactions or provide services, such as preferred payment method or postal/geographic address. User Data typically does not include analytical or inferential data that may be derived later based on platform usage or through data analysis tools. ANKH Platform is committed to applying applicable laws and regulations regarding the protection and processing of personal data, and User Data is handled through secure electronic systems with access restricted within the work environment according to the principle of functional need only."
+      },
+      "dataSharing": {
+        "title": "4. Data Sharing",
+        "content": "The platform may, when necessary, share some User Data with partners, service providers, or affiliated entities, within the limits that serve the provision of services or compliance with legal and regulatory requirements."
+      },
+      "dataProtection": {
+        "title": "5. Data Protection",
+        "content": "ANKH Platform is committed to following recognized standards in data protection and information security. Although no means can guarantee complete security when transmitting or storing data over the internet, the platform continuously works to apply the best reasonable technical and commercial practices to reduce risks and protect user privacy."
+      },
+      "dataAsAsset": {
+        "title": "6. Data as a Business Asset",
+        "content": "User Data is considered one of the essential assets in digital business. In the event that ANKH Platform undergoes any organizational or commercial operations such as mergers, acquisitions, or restructuring, this data may be part of the valuation or transition, with the platform committed to ensuring that User Data continues to be handled with the same level of protection and privacy by any legal successor."
+      },
+      "userRights": {
+        "title": "7. User Rights",
+        "content": "Users have the right to request modification or updating of their data registered with the platform, provided that this is within a legal framework and does not result in any circumvention or misuse of the service, and without demanding complete account deletion if it conflicts with regulatory obligations. The platform will handle such requests as it deems appropriate and in accordance with sound commercial and organizational considerations."
+      },
+      "amendments": {
+        "title": "8. Policy Amendments",
+        "content": "This Policy was adopted and became effective as of December 2022 and is available for review by relevant parties. ANKH Platform reserves its full right to modify or update this Policy at any time without prior notice, so it is recommended to review it periodically."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "subtitle": "Terms and Conditions of Use for ANKH Platform",
+    "lastUpdated": "Last Updated: December 2022",
+    "intro": "Welcome to ANKH Platform. By using this platform, you agree to comply with the following terms and conditions. Please read them carefully before using our services.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By using ANKH Platform, registering on it, or accessing any of its services, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you do not agree to any of these terms, please do not use the platform."
+      },
+      "services": {
+        "title": "2. Description of Services",
+        "content": "ANKH Platform provides electronic educational and training services designed for organizations and institutions, including video training courses, PDF educational materials, interactive quizzes, and completion certificates. The platform also offers the ability to book in-person (offline) training courses."
+      },
+      "accounts": {
+        "title": "3. User Accounts",
+        "content": "Using the platform requires creating an account for the organization. Users must provide accurate and correct information during registration and maintain the confidentiality of login credentials. All new accounts are subject to administrative approval before activation. Users bear full responsibility for any activity conducted through their accounts."
+      },
+      "subscriptions": {
+        "title": "4. Subscriptions and Payments",
+        "content": "Access to platform content is available through subscription plans (monthly or yearly). Subscriptions are activated after uploading a payment receipt and obtaining administrative approval. Subscription fees are non-refundable after approval. The platform reserves the right to modify subscription prices with prior notice."
+      },
+      "obligations": {
+        "title": "5. User Obligations",
+        "content": "Users agree not to share platform content with unauthorized parties, not to attempt unauthorized access to platform systems, and not to use the platform for illegal or unlawful purposes. Any violation of these obligations may result in account suspension or termination."
+      },
+      "intellectualProperty": {
+        "title": "6. Intellectual Property",
+        "content": "All content provided through the platform, including training courses, videos, PDF files, quizzes, designs, and trademarks, are the property of ANKH Platform or licensed to it. Copying, distributing, or reproducing any content without prior written permission from the platform is prohibited."
+      },
+      "liability": {
+        "title": "7. Limitation of Liability",
+        "content": "The platform provides its services \"as is\" without any express or implied warranties. ANKH Platform shall not be liable for any direct or indirect damages resulting from the use of the platform or the inability to use it, including loss of data or profits."
+      },
+      "law": {
+        "title": "8. Governing Law",
+        "content": "These terms and conditions are governed by the laws of the Arab Republic of Egypt. In the event of any dispute related to the use of the platform, the competent Egyptian courts shall be the body responsible for adjudication. ANKH Platform reserves the right to modify these terms at any time, and users will be notified of material changes."
+      }
+    }
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "description": "The link you're looking for may have changed or is no longer available. Return to ANKH gateway or explore our learning paths.",
+    "go_home": "Back to Home",
+    "go_back": "Go Back",
+    "brand": "ANKH",
+    "tagline": "Gateway to Knowledge, Start of the Journey"
   }
 }
